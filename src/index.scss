@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Thicccboi Black';
+    src: url('../src/assets/fonts/THICCCBOI-Black.ttf');
+}
+@font-face {
+    font-family: 'Thicccboi Bold';
+    src: url('../src/assets/fonts/THICCCBOI-Bold.ttf');
+}
+@font-face {
+    font-family: 'Thicccboi ExtraBold';
+    src: url('../src/assets/fonts/THICCCBOI-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Thicccboi Light';
+    src: url('../src/assets/fonts/THICCCBOI-Light.ttf');
+}
+@font-face {
+    font-family: 'Thicccboi Medium';
+    src: url('../src/assets/fonts/THICCCBOI-Medium.ttf');
+}
+@font-face {
+    font-family: 'Thicccboi Regular';
+    src: url('../src/assets/fonts/THICCCBOI-Regular.ttf');
+}
+@font-face {
+    font-family: 'Thicccboi SemiBold';
+    src: url('../src/assets/fonts/THICCCBOI-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Thicccboi Thin';
+    src: url('../src/assets/fonts/THICCCBOI-Thin.ttf');
+}
+
+$font-thicccboi-black:'Thicccboi Black';
+$font-thicccboi-bold:'Thicccboi Bold';
+$font-thicccboi-extrabold:'Thicccboi ExtraBold';
+$font-thicccboi-light:'Thicccboi Light';
+$font-thicccboi-medium:'Thicccboi Medium';
+$font-thicccboi-regular:'Thicccboi Regular';
+$font-thicccboi-semibold:'Thicccboi SemiBold';
+$font-thicccboi-thin:'Thicccboi Thin';
+
+$color-primary:#F85757;
+$color-neutral-800:#222223;
+$color-neutral-700:#616066;
+$color-neutral-600:#8D8D91;
+$color-neutral-500:#B7B7B7;
+$color-neutral-400:#E9E9E9;
+$color-neutral-300:#F6F6F6;
+$color-neutral-200:#F9F9F9;
+$color-neutral-100:#FFFFFF;
