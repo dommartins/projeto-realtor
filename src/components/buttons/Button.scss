@@ -1,0 +1,103 @@
+@import '../../index.scss';
+
+.re-button-small-black {
+    padding: 16px 26px;
+    background-color: $color-neutral-800;
+    color: $color-neutral-100;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 15px 25px;
+    }
+}
+
+.re-button-default-black {
+    padding: 20px 40px;
+    background-color: $color-neutral-800;
+    color: $color-neutral-100;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 19px 39px;
+    }
+}
+
+.re-button-large-black {
+    padding: 30px 68px;
+    background-color: $color-neutral-800;
+    color: $color-neutral-100;
+    border-radius: 12px;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 29px 67px;
+    }
+}
+
+.re-button-small-white {
+    padding: 16px 26px;
+    background-color: $color-neutral-100;
+    color: $color-neutral-800;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 15px 25px;
+    }
+}
+
+.re-button-default-white {
+    padding: 20px 40px;
+    background-color: $color-neutral-100;
+    color: $color-neutral-800;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 19px 39px;
+    }
+}
+
+.re-button-large-white {
+    padding: 30px 68px;
+    background-color: $color-neutral-100;
+    color: $color-neutral-800;
+    border-radius: 12px;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 29px 67px;
+    }
+}
