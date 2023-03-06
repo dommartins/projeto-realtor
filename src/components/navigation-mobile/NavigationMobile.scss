@@ -1,0 +1,15 @@
+@import '../../index.scss';
+
+.re-navigation-mobile {
+    padding: 30px;
+    border-left: 5px solid $color-primary !important;
+    .nav-link {
+        font-size: 18px;
+    }
+    button.btn-close {
+        width: 0px;
+    }
+    button {
+        width: 100%;
+    }
+}
