@@ -1,9 +1,13 @@
 import React from 'react';
+import './Login.scss';
+import LoginConstructor from '../../assets/images/img-constructor.svg';
 
 export default function Login() {
   return (
     <React.Fragment>
-        <h1>Login</h1>
+        <div className="re-login">
+          <img src={LoginConstructor} alt="Login" />
+        </div>
     </React.Fragment>
   )
 }
