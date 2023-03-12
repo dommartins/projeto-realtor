@@ -1,0 +1,63 @@
+@import '../../index.scss';
+
+.re-footer {
+    width: 100%;
+    padding: 60px 0px;
+    img {
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 20px;
+        color: $color-neutral-800;
+    }
+    .re-footer-social {
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color: $color-primary;
+            margin-right: 10px;
+        }
+    }
+    h5 {
+        font-size: 20px;
+        color: $color-primary;
+        font-weight: 600;
+    }
+    .re-footer-social {
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color: $color-neutral-800;
+            &:hover {
+                color: $color-primary;
+            }
+        }
+        span {
+            font-size: 18px;
+            background-color: $color-neutral-800 !important;
+            &:hover {
+                background-color: $color-primary !important;
+                transition: 0.9s;
+            }
+        }
+    }
+    .re-footer-subscribe {
+        .input-group-text {
+            background-color: $color-neutral-800;
+            color: $color-neutral-100;
+        }
+        .input-group-text {
+            font-size: 28px;
+        }
+    }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        text-align: center;
+    }
+    @media (min-width: 568px) and (max-width: 767.98px) {
+        text-align: center;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {}
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1499.98px) {}
+}
