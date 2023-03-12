@@ -101,3 +101,54 @@
         padding: 29px 67px;
     }
 }
+
+.re-button-small-orange {
+    padding: 16px 26px;
+    background-color: $color-primary;
+    color: $color-neutral-100;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 15px 25px;
+    }
+}
+
+.re-button-default-orange {
+    padding: 20px 40px;
+    background-color: $color-primary;
+    color: $color-neutral-100;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 19px 39px;
+    }
+}
+
+.re-button-large-orange {
+    padding: 30px 68px;
+    background-color: $color-primary;
+    color: $color-neutral-100;
+    border-radius: 12px;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: $font-thicccboi-bold;
+    border: 0px;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-neutral-100;
+        transition: 0.3s;
+        padding: 29px 67px;
+    }
+}

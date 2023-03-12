@@ -48,3 +48,27 @@ export function ButtonsLargeWhite(props) {
         </React.Fragment>
     )
 }
+
+export function ButtonsSmallOrange(props) {
+    return (
+        <React.Fragment>
+            <button className="re-button-small-orange shadow-sm">{props.description}</button>
+        </React.Fragment>
+    )
+}
+
+export function ButtonsDefaultOrange(props) {
+    return (
+        <React.Fragment>
+            <button className="re-button-default-orange shadow-sm">{props.description}</button>
+        </React.Fragment>
+    )
+}
+
+export function ButtonsLargeOrange(props) {
+    return (
+        <React.Fragment>
+            <button className="re-button-large-orange shadow-sm">{props.description}</button>
+        </React.Fragment>
+    )
+}
