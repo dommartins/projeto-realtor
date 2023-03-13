@@ -3,7 +3,7 @@ import './Footer.scss';
 import Brand from '../../assets/icons/brand-default.svg';
 import { GrFacebook } from 'react-icons/gr';
 import { BsInstagram, BsTwitter } from 'react-icons/bs';
-import { FiChevronRight } from 'react-icons/fi';
+import { ButtonsDefaultOrange } from '../buttons/Buttons';
 
 export default function Footer() {
     return (
@@ -40,11 +40,9 @@ export default function Footer() {
                         </div>
                         <div className="col-lg-5 col-md-6 re-footer-subscribe">
                             <h5>SUBSCRIBE</h5>
-                            <div class="input-group input-group-md mb-3">
-                                <input type="text" class="form-control" placeholder="Your email"/>
-                                <span class="input-group-text">
-                                    <FiChevronRight/>
-                                </span>
+                            <div className="re-footer-form">
+                                <input type="text" placeholder="Enter your email address"/>
+                                <ButtonsDefaultOrange description="Subscribe"/>
                             </div>
                         </div>
                     </div>
